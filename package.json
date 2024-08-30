@@ -4,7 +4,7 @@
   "description": "A Discord bot that tracks server member changes",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node DiscordJoin.js"
   },
   "dependencies": {
     "discord.js": "^14.0.0"

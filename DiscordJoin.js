@@ -1,3 +1,4 @@
+require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
 
 const client = new Client({
@@ -23,6 +24,4 @@ client.on('guildMemberRemove', member => {
     console.log(member.guild.memberCount);
 });
 
-client.login(token);
-
-
+client.login(process.env.DISCORD_TOKEN);

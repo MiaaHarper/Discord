@@ -23,6 +23,6 @@ client.on('guildMemberRemove', member => {
     console.log(member.guild.memberCount);
 });
 
-client.login(DISCORDTOKEN);
+client.login(token);
 
 
